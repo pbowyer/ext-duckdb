@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Launch Test Function (gdb)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/usr/local/bin/php",
+            "args": [
+                "-r",
+                "echo hello_world() . PHP_EOL;",
+            ],
+            "cwd": ".",
+            "MIMode": "gdb",
+            "additionalSOLibSearchPath": "/php-src;/php-ext",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ],
+    "version": "2.0.0"
+}
