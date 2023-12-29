@@ -33,4 +33,4 @@ RUN cd /php-src/ext/hello \
     && make \
     && echo "extension=/php-src/ext/hello/modules/hello.so" >> /usr/local/lib/php.ini
 
-COPY ./launch.json /php-src/.vscode
+COPY ./launch.json /php-src/.vscode/launch.json

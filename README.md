@@ -12,7 +12,7 @@ docker build --pull --rm -f "Dockerfile" -t php-dev:latest "."
 ### Run container
 
 ```bash
-docker run --name php-dev -it php-dev bash
+docker run --rm --name php-dev -it php-dev bash
 ```
 
 ### Test function
