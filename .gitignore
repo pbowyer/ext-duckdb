@@ -1,1 +1,3 @@
 .vscode
+/duckdb/
+/php-src/
