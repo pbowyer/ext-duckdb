@@ -1,3 +1,13 @@
+# ext-duckdb
+
+An exercise in using LLMs to generate a PHP extension - and to try to fill a gap in available PHP extensions.
+
+I have the duckdb source code in `duckdb/` and the PHP source code in `php-src/` for easy reference.
+
+Based on https://github.com/bogkonstantin/php-extension-hello-world. Original README below.
+
+---
+
 # Base PHP extension in C language with VSCode Debugger setup
 
 Clone this repository and navigate to the directory.  
